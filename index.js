@@ -1,8 +1,8 @@
 const pa11y = require("pa11y");
 const express = require("express");
 const { request, response } = require("express");
-
-const PORT = process.env.PORT || 3000;
+//running on port 5001 because 5000 will not run, not sure if its an m1 issues or otherwise...all other ports will run except 5000
+const PORT = process.env.PORT || 5001;
 
 const app = express();
 
