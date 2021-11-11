@@ -1,0 +1,24 @@
+{
+  "name": "accessability-tester",
+  "version": "1.0.0",
+  "description": "creating an accessability web tester with pa11y api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayashley/accessability-tester.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mayashley/accessability-tester/issues"
+  },
+  "homepage": "https://github.com/mayashley/accessability-tester#readme",
+  "dependencies": {
+    "expressy": "^0.0.6-1",
+    "pa11y": "^6.1.0"
+  }
+}
