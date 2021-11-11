@@ -1,8 +1,8 @@
 const pa11y = require("pa11y");
 const express = require("express");
 const { request, response } = require("express");
-// I normally run on port 5000 for node projects
-const PORT = process.env.PORT || 5000;
+
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 
