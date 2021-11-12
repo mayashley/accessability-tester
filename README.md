@@ -10,7 +10,7 @@
 
 
 ##### Run The Application
-<code>npm start</code>
+<code>after running "npm start" in the terminal, open "localhost:3000" in a new browser tab and you can test this app.</code>
 
 
 <p>Loosley inspired by a Brad Traversy project that I watched a while back. This one differs by the various front-end technologies that are used and the amount of information that is captured and returned to the user.</p>
