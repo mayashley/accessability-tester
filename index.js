@@ -22,6 +22,4 @@ app.get("/api/testing", async (request, response) => {
 
 app.listen(PORT, () => console.log("Server has started on port ${PORT}"));
 
-
-//get request for postman
-http://localhost:5001/api/testing?url=https://alphatechdevs.com/
+//get request for postman http://localhost:5001/api/testing?url=https://alphatechdevs.com/
