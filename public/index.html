@@ -10,6 +10,11 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <style>
+      .loader {
+        display: none;
+      }
+    </style>
     <title>Accessibility Testing for Web</title>
   </head>
   <body>
@@ -31,13 +36,11 @@
         </div>
       </div>
       <div class="loader text-center">
-          <div class="spinner-grow text-danger" role="status">
-              <span class="visually-hidden">Loading:...</span>
-          </div>
-          <div class="spinner-grow text-warning" role="status">
+        <div class="spinner-grow text-danger" role="status">
+          <span class="visually-hidden">Loading:...</span>
         </div>
-        <div class="spinner-grow text-success" role="status">
-        </div>
+        <div class="spinner-grow text-warning" role="status"></div>
+        <div class="spinner-grow text-success" role="status"></div>
       </div>
     </div>
     <script src="main.js"></script>
